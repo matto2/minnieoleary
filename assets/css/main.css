@@ -32,7 +32,8 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
  * Render the `main` element consistently in IE.
@@ -340,7 +341,7 @@ html {
 
 body {
   color: #404040;
-  background: white;
+  background: #fffcfa;
   font-size: 1rem; }
 
 p,
@@ -365,7 +366,7 @@ h5 {
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.2;
-  color: dodgerblue; }
+  color: tomato; }
   h1:not(:first-child),
   h2:not(:first-child),
   h3:not(:first-child),
@@ -410,10 +411,10 @@ h5 {
     font-size: 1.25rem; } }
 
 a {
-  color: dodgerblue;
+  color: tomato;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: darkviolet;
+    color: orangered;
     text-decoration: underline; }
 
 mark {
@@ -422,14 +423,17 @@ mark {
 
 blockquote {
   margin: 0 0 1.5rem 0;
-  border-left: 16px solid #f0f0f0;
+  border-left: 16px solid #ffa494;
   padding: 0 1.5rem;
-  font-size: 1.5rem; }
+  font-size: 1rem;
+  font-style: italic;
+}
   blockquote cite {
     display: block;
     margin-top: 1.5rem;
     font-size: 1rem;
-    text-align: right; }
+    font-style: italic;
+    text-align: left; }
 
 pre {
   border: 0;
@@ -633,9 +637,9 @@ dd {
 .button, a.button, button, [type=submit], [type=reset], [type=button] {
   -webkit-appearance: none;
   display: inline-block;
-  border: 1px solid dodgerblue;
+  border: 1px solid tomato;
   border-radius: 4px;
-  background: dodgerblue;
+  background: tomato;
   color: #ffffff;
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -650,14 +654,14 @@ dd {
   line-height: 1; }
 
 .button:hover, a.button:hover, button:hover, [type=submit]:hover, [type=reset]:hover, [type=button]:hover {
-  border: 1px solid darkviolet;
-  background: darkviolet;
+  border: 1px solid orangered;
+  background: orangered;
   color: #ffffff;
   text-decoration: none; }
 
 .button:focus, .button:active, a.button:focus, a.button:active, button:focus, button:active, [type=submit]:focus, [type=submit]:active, [type=reset]:focus, [type=reset]:active, [type=button]:focus, [type=button]:active {
-  border: 1px solid darkviolet;
-  background: darkviolet;
+  border: 1px solid orangered;
+  background: orangered;
   color: #ffffff;
   text-decoration: none; }
 
@@ -857,3 +861,17 @@ details :focus {
 h3.with-deets {
   margin-bottom: 0rem;
 }
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}  
