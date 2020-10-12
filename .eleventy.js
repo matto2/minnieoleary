@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("favicon-16x16.png")
     eleventyConfig.addPassthroughCopy("favicon-32x32.png")
     eleventyConfig.addPassthroughCopy("favicon.ico")
+    eleventyConfig.addPassthroughCopy("site.webmanifest")
 
     
     return {
