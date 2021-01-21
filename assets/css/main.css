@@ -880,6 +880,11 @@ h3.with-deets {
 h1 {
   font-family: 'Yeseva One', cursive;
   font-size: 3rem;
+  --minFontSize: 28px;
+  --maxFontSize: 100px;
+  --scaler: 9vw;
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+  }
 }
 
 h3 {
