@@ -885,10 +885,14 @@ h1 {
 h3 {
   font-family: 'Yeseva One', cursive;
   font-size: 2rem;
-  margin-bottom: 0rem;
 }
 
 h1.banner {
   margin-bottom: 0rem;
 }
+
+h3.banner {
+  margin-bottom: .5rem;
+}
+
 
