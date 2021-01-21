@@ -875,4 +875,9 @@ h3.with-deets {
     height: auto;
     max-width: 100%;
     padding-bottom: 1rem;
-}  
+} 
+
+h1 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 4rem;
+}
