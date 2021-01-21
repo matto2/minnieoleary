@@ -879,5 +879,9 @@ h3.with-deets {
 
 h1 {
   font-family: 'Yeseva One', cursive;
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+h1.banner {
+  margin-bottom: 0rem;
 }
