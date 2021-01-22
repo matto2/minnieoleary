@@ -882,7 +882,7 @@ h1 {
   font-size: 3rem;
   --minFontSize: 28px;
   --maxFontSize: 100px;
-  --scaler: 9vw;
+  --scaler: 8vw;
   font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
   }
 }
