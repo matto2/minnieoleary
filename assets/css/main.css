@@ -649,16 +649,16 @@ dd {
 
 .accent-button,
 a.accent-button {
-  color: #ffffff;
-  border: 1px solid #29de7d;
+  color: #333 ;
+  border: 1px solid #ababab;
   background: #29de7d; }
   .accent-button:hover, .accent-button:focus, .accent-button:active,
   a.accent-button:hover,
   a.accent-button:focus,
   a.accent-button:active {
     color: #ffffff;
-    border: 1px solid #1cb864;
-    background: #1cb864; }
+    border: 1px solid #ababab;
+    background: #ababab; }
 
 .muted-button,
 a.muted-button {
@@ -863,7 +863,7 @@ h1 {
   --scaler: 8vw;
   font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
   }
-}
+
 
 h3 {
   font-family: 'Yeseva One', cursive;
@@ -876,6 +876,25 @@ h1.banner {
 
 h3.banner {
   margin-bottom: .5rem;
+}
+
+
+/* html { font-size: 22px; }
+body { padding: 1rem; } */
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 
